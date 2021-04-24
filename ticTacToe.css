@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(242, 245, 247);
+}
+.main_box{
+    width: 400;
+    height: 250px;
+    margin-left: 550px;
+    background-color: rgb(143, 149, 240);
+    text-align: center;
+}
+#vsid{
+    color:orangered;
+    font-size: 18;
+    font-family: fantasy;
+    
+}
+table{
+    border: 1px solid black;
+    width: 400;
+    height: 400px;
+    table-layout: fixed;
+    font-size: 50px;
+    background-color: burlywood;
+
+}
+tr,td{
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    
+}
+#restart{
+    background-color: rgb(240, 23, 232);
+    color: white;
+    font-size: 25px;
+    border: 1px solid black;
+}
+#resultID{
+    color:rgb(163, 60, 19);
+    font-size: 18;
+    font-family: fantasy;
+    text-align: center;
+}
+

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Tic Tac Toe
+        </title>
+        <link rel="stylesheet"  href="ticTacToe.css" >
+    </head>
+    <body>
+        <div class="main_box">
+            <h1>Welcome to Tic Tac Toe</h1>
+            <label>X </label>
+            <input id='player1'  type="text" placeholder="Player1">
+            <p id="vsid">Vs</p>
+            <label>O </label>
+            <input id='player2'  type="text" placeholder="Player2">
+            <br>
+            <p id="resultID" >TOSS</p>
+        </div>
+        <br>
+        <table id="tableID" align="center">
+            <tr>
+                <td id="b1" ondblclick="b1_func()"></td>
+                <td id="b2" ondblclick="b2_func()"></td>
+                <td id="b3" ondblclick="b3_func()"></td>
+            </tr>
+            <tr>
+                <td id="b4" ondblclick="b4_func()"></td>
+                <td id="b5" ondblclick="b5_func()"></td>
+                <td id="b6" ondblclick="b6_func()"></td>>
+            </tr>
+            <tr>
+                <td id="b7" ondblclick="b7_func()"></td>
+                <td id="b8" ondblclick="b8_func()"></td>
+                <td id="b9" ondblclick="b9_func()"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <center><button id='restart' onclick="restartGame()" >Restart</button></center>
+        <script src="tictactoe.js"></script>
+    </body>
+</html>
